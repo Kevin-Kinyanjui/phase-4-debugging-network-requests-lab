@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Changed the Toys.create(toy_params) to Toy.create(toy_params)
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  Rendered updated json toy on update
 
-- Donate a toy to Goodwill (and delete it from our database)
+- Donate a toy to Goodwill (and delete it from our database): 
+  Added destroy route to routes
 
   - How I debugged:
